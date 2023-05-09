@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nota Remision</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <section class="cabezal">
+        <div class="logoynota">
+          <img src="logoOmega.png" alt="logodeempresa" class="logoOmega">
+          <p class="omegamc">Omega MC</p>
+        </div>
+        <div class="direccion">
+         <p>Av.Belisario Domínguez #117, San gregorio Atlapulco, Xochimilco, 16600 Ciudad de México, CDMX</p> 
+          Folio:<input placeholder="#nota" class="folio">Fecha:<input placeholder="fecha" class="fecha">
+          <h1>NOTA REMISION</h1>
+        </div>
+      </section>
+      <p class="direccionweb">https://omegamc.vercel.app</p>
+      <hr>
+      <section class="DatosCliente">
+        <p class="dtc">Datos de cliente:</p>
+        <div class="datos">
+          Cliente:<input type="text" placeholder="nombre" class="nombrecito">
+          Telefono:<input type="tel" placeholder="telefono" class="tel">
+          Direccion: Calle:<input type="text" placeholder="calle" class="dir">Num/Mz/Lt:<input placeholder="numero o mazana y lote" class="numero">
+          C.P.:<input placeholder="codigo postal" class="cp">
+        </div>
+      </section>
+      <hr>
+      <section class="servicior">
+        Tipo de servicio:<input type="text" placeholder="servico" class="tservicio">
+      </section>
+    </main>
+  </body>
+      <button onclick="imprimir_nota()">Imprimir</button>
+      <script>
+        function imprimir_nota(){
+          window.print()
+        }
+      </script>
+</html>
