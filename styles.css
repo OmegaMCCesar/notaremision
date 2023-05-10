@@ -1,7 +1,6 @@
 body{
   display: flex;
   flex-direction: column;
-  background-color: white;
   border: 1px solid black;
   border-radius: 2vh;
   align-items: center;
@@ -100,4 +99,79 @@ h1{
 .cp{
   width: 6%;
   border: none;
+}
+
+.tequipo{
+  border: none;
+  width: 5%;
+}
+
+.marca{
+  border: none;
+  width: 5%;
+}
+
+.falla{
+  border: none;
+  width: 5%;
+  margin-right: 15%;
+}
+.servicio{
+  margin-left: 2%;
+}
+
+.fechagarantia{
+  border: none;
+  width: 2%;
+  margin: 0 0.1vh 0 0.2vh;
+}
+
+.fechagarantia2{
+  border: none;
+  width: 5%;
+}
+
+.fechagarantia3{
+  border: none;
+  width: 5%;
+}
+
+.QR{
+  margin: 5%;
+  width: 10%;
+}
+
+.firma{
+  border: solid 1px black;
+  width: 30%;
+  height: 10vh;
+  margin: 2vh 1vh 0 1vh;
+  text-align: center;
+}
+
+.firmaQr{
+  display: flex;
+}
+
+.presupuesto{
+  display: flex;
+  margin-left: 2vh;
+}
+
+.presu{
+  border: none;
+  width: 5%;
+  margin-right: 2vh;
+}
+
+.acciones{
+  width: 90%;
+  height: 12vh;
+  text-align: center;
+  margin-left: 5vw;
+
+}
+
+.p_acciones{
+  text-align: center;
 }
