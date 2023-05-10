@@ -7,10 +7,34 @@ body{
   align-content: center;
 }
 
+.main{
+background-image: url(logoOmega.png);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: auto;
+margin: auto;
+}
+
+.main img{
+  padding: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  position: absolute;
+}
+
+.logoOmega1{
+  padding: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
 h1{
   font-size: 3vh;
   width: 40%;
-  margin-left: 6%;
+  margin: 0 0 0 6%;
 }
 
 
@@ -30,12 +54,10 @@ h1{
   text-align: center;
 }
 
-.fecha{
+.c2{
   border: none;
-}
-
-.tservicio{
-  border: none;
+  margin-right: 3%;
+  width: 16%;
 }
 
 .servicior{
@@ -118,6 +140,10 @@ h1{
 }
 .servicio{
   margin-left: 2%;
+}
+
+.fecha{
+  border: none;
 }
 
 .fechagarantia{
