@@ -7,6 +7,13 @@ body{
   align-content: center;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  border-radius: 1vh;
+}
+
 .main{
 background-image: url(logoOmega.png);
 background-repeat: no-repeat;
@@ -34,14 +41,37 @@ margin: auto;
 h1{
   font-size: 3vh;
   width: 40%;
-  margin: 0 0 0 6%;
+  margin-right: 8vh;
 }
 
+.fYFolio{
+  width: 6vw;
+}
 
+.f{
+  display: flex;
+}
 .cabezal{
   display: flex;
-  margin: 4% 4% 1% 4%; 
   background-color: rgb(255, 255, 255); 
+  padding: 1vh;
+  width: 90%;
+  border-radius: 1vh;
+  margin-top: 2vh;
+}
+
+.slogan{
+margin-right: 2vh;
+}
+
+.notaYfolio{
+  display: flex;
+}
+
+.folioYFecha{
+  display: flex;
+  flex-direction: column;
+  width: 10vh;
 }
 
 .direccionweb{
@@ -56,7 +86,7 @@ h1{
 
 .c2{
   border: none;
-  margin-right: 3%;
+  margin-right: 5%;
   width: 16%;
 }
 
@@ -66,6 +96,7 @@ h1{
 
 .dtc{
   margin-left: 1%;
+  width: 100%;
 }
 
 .dir{
@@ -74,7 +105,7 @@ h1{
 }
 
 .folio{
-  width: 10%;
+  width: 40%;
   border: none;
 }
 .numero{
@@ -85,12 +116,13 @@ h1{
 
 .logoynota{
   display: flex;
-  width: 50%;
-  background-color:white;
+  width: 20%;
+  margin-right: 2vh;
 }
 
 .logoOmega{
-  width: 30%;
+  width: 100%;
+  height: 100%;
 }
 
 .omegamc{
@@ -144,6 +176,7 @@ h1{
 
 .fecha{
   border: none;
+  width: 8vh;
 }
 
 .fechagarantia{
@@ -163,31 +196,41 @@ h1{
 }
 
 .QR{
-  margin: 5%;
-  width: 10%;
+  margin: 0 5% 5% 5%;
+  width: 15%;
+  height: 85%;
 }
 
 .firma{
-  border: solid 1px black;
+  border-bottom: solid black;
   width: 30%;
-  height: 10vh;
+  height: 5vh;
   margin: 2vh 1vh 0 1vh;
   text-align: center;
 }
 
+.linea{
+  border: solid 1px black;
+  width: 90%;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
 .firmaQr{
   display: flex;
+  height: 10vh;
 }
 
 .presupuesto{
   display: flex;
   margin-left: 2vh;
+  flex-wrap: wrap;
 }
 
 .presu{
   border: none;
   width: 5%;
-  margin-right: 2vh;
+  margin-right: 7vh;
 }
 
 .acciones{
@@ -200,4 +243,10 @@ h1{
 
 .p_acciones{
   text-align: center;
+}
+
+.icowhats{
+  width: 2vh;
+  margin-right: 1vh;
+  margin-left: 1vh;
 }
