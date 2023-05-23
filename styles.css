@@ -7,6 +7,16 @@ body{
   align-content: center;
 }
 
+footer div div input {
+  border: none;
+  position: relative;
+}
+
+.meses_garantias{
+  border: none;
+  width: 1.6vh;
+}
+
 main{
   display: flex;
   flex-direction: column;
